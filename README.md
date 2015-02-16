@@ -42,6 +42,16 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Changelog
 
+### 0.0.3
+
+- fix docker installation
+
+### 0.0.2
+
+- Inherits from Ubuntu 14.04
+- Docker 1.5
+- PHP bundled with ubuntu 
+
 ### 0.0.1
 
-Initial version
+- Initial version

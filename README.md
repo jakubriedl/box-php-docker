@@ -15,7 +15,7 @@ box: jakubriedl/php-docker
 
 Status on wercker:
 
-@todo add wercker status
+[![wercker status](https://app.wercker.com/status/340fba21eb03dfa34c5d3ebcf9a2ae0c/m/master "wercker status")](https://app.wercker.com/project/bykey/340fba21eb03dfa34c5d3ebcf9a2ae0c)
 
 ## License
 

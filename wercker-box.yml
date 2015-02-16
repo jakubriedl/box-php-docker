@@ -1,6 +1,6 @@
 name: php-docker
 version: 0.0.1
-inherits: wercker-labs/docker
+inherits: gullitmiranda/docker@0.0.2
 type: main
 platform: ubuntu@12.04
 description: Wercker box for building php docker applications

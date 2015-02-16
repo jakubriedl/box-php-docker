@@ -1,6 +1,6 @@
 name: php-docker
-version: 0.0.1
-inherits: gullitmiranda/docker@0.0.2
+version: 0.0.2
+inherits: ruudk/ubuntu14.04@1.0.0
 type: main
 platform: ubuntu@12.04
 description: Wercker box for building php docker applications
@@ -11,6 +11,7 @@ keywords:
 script: |
   sudo apt-get update
   sudo apt-get -y upgrade
+  curl -sSL https://get.docker.com/ubuntu/ | sudo sh
   sudo apt-get install -y curl build-essential php5-cli
   curl -sS https://getcomposer.org/installer | php
   sudo mv composer.phar /usr/local/bin/composer

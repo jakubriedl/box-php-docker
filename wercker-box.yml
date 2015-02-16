@@ -11,11 +11,6 @@ keywords:
 script: |
   sudo apt-get update
   sudo apt-get -y upgrade
-  sudo apt-get install -y curl build-essential
-  sudo echo "deb http://packages.dotdeb.org wheezy-php56 all" | sudo tee -a /etc/apt/sources.list
-  sudo echo "deb-src http://packages.dotdeb.org wheezy-php56 all" | sudo tee -a /etc/apt/sources.list
-  curl -O http://www.dotdeb.org/dotdeb.gpg && sudo apt-key add dotdeb.gpg
-  sudo apt-get update
-  sudo apt-get install -y php5-cli php5-dev
+  sudo apt-get install -y curl build-essential php5-cli
   curl -sS https://getcomposer.org/installer | php
   mv composer.phar /usr/local/bin/composer

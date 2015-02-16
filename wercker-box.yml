@@ -1,9 +1,9 @@
 name: php-docker
 version: 0.0.1
 inherits: wercker-labs/docker
-type: service
+type: main
 platform: ubuntu@12.04
-description: wercker box for building php docker applications
+description: Wercker box for building php docker applications
 keywords:
   - php
   - docker

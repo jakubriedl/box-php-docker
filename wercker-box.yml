@@ -11,6 +11,6 @@ keywords:
 script: |
   sudo apt-get update
   sudo apt-get -y upgrade
-  sudo apt-get install -y curl build-essential php5-cli
+  sudo apt-get install -y curl php5-cli php5-json
   curl -sS https://getcomposer.org/installer | php
   sudo mv composer.phar /usr/local/bin/composer

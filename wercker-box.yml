@@ -1,6 +1,6 @@
 name: php-docker
-version: 0.0.3
-inherits: ruudk/ubuntu14.04@1.0.0
+version: 0.0.4
+inherits: wercker-labs/docker
 type: main
 platform: ubuntu@12.04
 description: Wercker box for building php docker applications
@@ -12,6 +12,5 @@ script: |
   sudo apt-get update
   sudo apt-get -y upgrade
   sudo apt-get install -y curl build-essential php5-cli
-  curl -sSL https://get.docker.com/ubuntu/ | sudo sh
   curl -sS https://getcomposer.org/installer | php
   sudo mv composer.phar /usr/local/bin/composer

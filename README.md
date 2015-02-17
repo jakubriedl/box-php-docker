@@ -42,6 +42,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Changelog
 
+### 0.0.4
+
+- revert to wercker-labs/docker parent because its required by wercker
+
 ### 0.0.3
 
 - fix docker installation
